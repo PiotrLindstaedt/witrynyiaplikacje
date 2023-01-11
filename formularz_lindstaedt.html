@@ -2,9 +2,102 @@
 <html>
 	<head>
 		<title>Formularz Lindstaedt</title>
-		<p align="right">Kiedys cos tu bedzie.</p> <br>
 	</head>
 	<body bgcolor=#b8c6db>
-		<a href="index.html">Wróć</a>
+		
+		<form enctype="text/plain" action="mailto:pio.lindstaedt@gmail.com" subject="formularz_dane" method="Post">
+
+			<h1 style="color: rgb(255, 255, 255);">Ankieta na temat jedzenia i napojów.</h1>
+    		<form id="forms">
+        
+        	<div id="left">
+        
+        	<label id="name">1. Podaj imie;</label>
+                <input type="text" id="imie" name="imie">
+           
+        	<br><br>
+        	<label id="email">2. Podaj swój email;</label>
+                 <input type="text" id="email" name="email">
+        
+        	<br><br>
+        	<label id="years">3. Podaj swój wiek;</label>
+                <input type="text" id="lyears" name="lyears">
+
+       		<br><br>
+       		<label id="smak">4. Jaki smak wolisz?</label></br>
+               <input type="radio" name="smak" checked>Słodki.</input>
+               <input type="radio" name="smak">Słony.</input>
+               <input type="radio" name="smak">Ostry.</input>
+               <input type="radio" name="smak">Łagodny.</input>
+			
+        	<br><br>
+        	<label id="ulubpotrawa">5. Zaznacz ulubioną rzecz na śniadanie;</label></br>
+                <input type="checkbox" id="ulubpotrawa" name="ulubpotrawa">Naleśniki z dżemem.</input>
+                <input type="checkbox" id="ulubpotrawa" name="ulubpotrawa">Kanapka z szynką i sałatą.</input>
+
+            <br><br>    
+
+                <input type="checkbox" id="ulubpotrawa" name="ulubpotrawa">Coś innego. (Wpisz).</input>
+
+            <br><br>
+
+                <textarea name="text" rows="20" cols="30" style="height: 15px; width: 191px; resize: none;"></textarea>
+
+            <br><br>
+        	<br><br>
+            	<label id="jpotrawa">6. Jakbyś miał/a wybrać jedną potrawę wymienioną poniżej, jaka to by była?</label></br>
+                <input type="checkbox" id="jpotrawa" name="jpotrawa">Kotlet mielony.</input>
+                <input type="checkbox" id="jpotrawa" name="jpotrawa">Spaghetti.</input>
+                <input type="checkbox" id="jpotrawa" name="jpotrawa">Zupa pomidorowa.</input>
+                <input type="checkbox" id="jpotrawa" name="jpotrawa">Krem z dyni.</input>
+		
+        	<br><br>
+            	<label id="checjedzenie">7. Co byś teraz z checią zjadł?</label></br>
+                <textarea name="text" rows="20" cols="30" style="height: 63px; width: 192px; resize: none;"></textarea>
+	
+        	<br><br>
+            	<label id="write">8. Wpisz swój ulubiony napój;</label></br>
+                <textarea name="text" rows="20" cols="30" style="height: 63px; width: 192px; resize: none;"></textarea>
+
+        	<br><br>
+            	<label id="ankieta">9. Teraz wybierz twój ulubiony napój spośród podanych niżej. </label></br>
+                <input type="radio" name="smak">Pepsi.</input>
+                <input type="radio" name="smak">Coca-Cola.</input>
+                <input type="radio" name="smak">Lipton.</input>
+                <input type="radio" name="smak" checked>Żaden z powyższych.</input>
+
+         	<br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            
+            	<label id="ankieta" style="font-size: xx-large; color: darkred;">10. Oceń moją ankiete od 1 do 10! </label></br>
+                     <select style="font-size: xx-large;">
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                           <option value="6">6</option>
+                           <option value="7">7</option>
+                           <option value="8">8</option>
+                           <option value="9">9</option>
+                           <option value="10">10</option>
+                     </select>
+                     </div>
+
+    		</br><br>
+
+
+            <form>
+                <input type="button" value="Strona główna." href="index.html">
+            </form>
+
+
+        	<button>Zaaplikuj.</button>
+        	<button>Zresetuj.</button>
+
+    	</form>
+
 	</body>
 <html>
